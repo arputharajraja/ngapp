@@ -1,0 +1,26 @@
+<form [formGroup]="form" >
+  <p>
+      <label>Search </label>
+
+      <input type="text" 
+              formControlName="searchControl"
+               />
+  </p>
+</form>    
+
+              
+<table>
+  <tr>
+      <th>Product</th>
+      
+  </tr>
+  <tr *ngFor="let p of  products">
+      <td>
+          <app-product-widget 
+                      [product]="p"
+                      (addToShoppingCart)="addToPurchaseList($event)"
+                       >
+          </app-product-widget>
+      </td>
+  </tr>
+</table>

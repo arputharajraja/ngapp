@@ -1,0 +1,27 @@
+<h2>Login Form</h2>
+<form >
+    <label for="username">UserName</label>
+
+    <input id="username" name="username" [(ngModel)]="username" />
+    <br />
+
+    <label for="password">Password</label>
+    <input id="password" name="password" [(ngModel)]="password" />
+
+    <br />
+    <button (click)="login()" >Login</button>
+</form>
+
+<p>
+   Use one of the below login
+   
+   <li>
+       admin/admin
+    </li>
+    <li>
+        user/user
+    </li>
+    <li>
+        staff/staff
+    </li>
+</p>

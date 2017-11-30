@@ -1,0 +1,10 @@
+<p>Name: {{product?.name | uppercase}}</p>
+<p>Price {{ 20 | currency}}</p>
+<p>Year: {{product?.year}}</p>
+<p>Weight: {{product?.weight}}</p>
+
+<button (click)="addToCartClicked()">Add To Cart</button>
+
+<a routerLink="/products/edit/{{product.id}}" class="button">
+Edit
+</a>
