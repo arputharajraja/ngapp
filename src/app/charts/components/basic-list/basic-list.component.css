@@ -1,0 +1,18 @@
+div.chart{
+    font-family:sans-serif;
+    font-size:0.7em;
+}
+
+.bar {
+    background-color:DarkRed;
+    color:white;
+    height:3em;
+    line-height:3em;
+    padding-right:1em;
+    margin-bottom:2px;
+    text-align:right;
+}
+
+div.outline {
+    outline: 1px solid black
+}

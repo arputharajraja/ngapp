@@ -30,6 +30,7 @@ import { SharedModule } from './shared/shared.module';
 import { routes } from './app.routing';
 
 import { environment } from '../environments/environment';
+import { ChartsModule } from './charts/charts.module';
 
  
 
@@ -56,7 +57,8 @@ import { environment } from '../environments/environment';
     ProductModule,
     BrandModule,
     CartModule,
-    AuthModule
+    AuthModule,
+    ChartsModule
   ],
   declarations: [ 
     AppComponent,
