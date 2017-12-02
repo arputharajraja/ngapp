@@ -26,3 +26,20 @@ div.label {
     width:20em;
     text-align:right;
 }
+
+
+
+ 
+.divider {
+    stroke: #CCC;
+}
+
+.line-style {
+    stroke: black;
+    width: 10px;
+}
+
+
+.origin {
+    stroke: #000;
+}

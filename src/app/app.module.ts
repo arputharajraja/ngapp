@@ -31,6 +31,7 @@ import { routes } from './app.routing';
 
 import { environment } from '../environments/environment';
 import { ChartsModule } from './charts/charts.module';
+import { ReactiveModule } from './reactive/reactive.module';
 
  
 
@@ -58,7 +59,8 @@ import { ChartsModule } from './charts/charts.module';
     BrandModule,
     CartModule,
     AuthModule,
-    ChartsModule
+    ChartsModule,
+    ReactiveModule
   ],
   declarations: [ 
     AppComponent,
